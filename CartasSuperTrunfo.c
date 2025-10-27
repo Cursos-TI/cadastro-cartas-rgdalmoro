@@ -11,11 +11,11 @@ int main() {
       char codigo[4], UF[3], nome_da_cidade[51];
   // Área para entrada de dados
         printf("Digite o Código da Carta:");
-        scanf ( "%s", codigo);
+        scanf ( "%3s", codigo);
         printf("\nDigite a UF:");
-        scanf ( "%s", UF);
+        scanf ( "%2s", UF);
         printf("\nDigite o nome da cidade:");
-        scanf ( "%s",nome_da_cidade);
+        scanf ( "%50s",nome_da_cidade);
         printf("\nDigite o número de habitantes:");
         scanf ( "%i",&populacao);
         printf("\nDigite a área em km2:");
